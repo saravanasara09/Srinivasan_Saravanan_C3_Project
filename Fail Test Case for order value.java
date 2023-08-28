@@ -33,7 +33,7 @@ class RestaurantTest {
 
     }
 
-// Fail test case before the order velue feature develop
+// Fail test case before the order value feature develop
     @Test
     public void get_order_value_should_throw_exception_for_item_not_found() {
         List<String> selectedItems = new ArrayList<>();
